@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/color_FFFFFF</item>
+<!--        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_logo_only_light</item>-->
+        <item name="postSplashScreenTheme">@style/Theme.WhereToEat</item>
+    </style>
+
+    <style name="Theme.WhereToEat" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/colorPrimary</item>
+    </style>
+</resources>

@@ -1,0 +1,24 @@
+buildscript {
+    ext.gradlePluginVersion = '2.40.1'
+    ext.gmsVersion = "4.3.13"
+
+    ext.androidPluginVersion = '7.3.0'
+    ext.jetBrainsKotlinVersion = "1.7.10"
+    ext.navVersion  = "2.5.1"
+    ext.crashlyticsGradleVersion = "2.9.2"
+
+    dependencies {
+        classpath "com.google.dagger:hilt-android-gradle-plugin:$gradlePluginVersion"
+        classpath "com.google.gms:google-services:$gmsVersion"
+        classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$navVersion"
+        classpath "com.google.firebase:firebase-crashlytics-gradle:$crashlyticsGradleVersion"
+    }
+}
+
+plugins {
+    id 'com.android.application' version '7.3.0' apply false
+    id 'com.android.library' version '7.3.0' apply false
+    id 'org.jetbrains.kotlin.android' version '1.7.10' apply false
+    id 'org.jetbrains.kotlin.jvm' version "$jetBrainsKotlinVersion" apply false
+    id 'com.google.dagger.hilt.android' version '2.42' apply false
+}

@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "910657266458",
+    "project_id": "fir-admin-test-68b04",
+    "storage_bucket": "fir-admin-test-68b04.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:910657266458:android:c14f5a4696e8284cc202a3",
+        "android_client_info": {
+          "package_name": "com.akbarsya.wheretoeat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "910657266458-258ku8de7u7tdsp5bse4aadqofjlr9pf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.akbarsya.wheretoeat",
+            "certificate_hash": "874654305644ed13dc7e100044e8868bdc21b3b2"
+          }
+        },
+        {
+          "client_id": "910657266458-n6s69gsfqp4mgr19g5djvgfvrkj9q47l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.akbarsya.wheretoeat",
+            "certificate_hash": "e66613e6c3bf60c812746428171c0da20d441929"
+          }
+        },
+        {
+          "client_id": "910657266458-qvq56516gufsi0a1vtupbtc3prdbhapp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.akbarsya.wheretoeat",
+            "certificate_hash": "ccff9c9d42820fe8cc6c1f29ac8b88e09cf18556"
+          }
+        },
+        {
+          "client_id": "910657266458-0a4s8q001k69a8rolsbtqefpno45bcfq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4W5NVouRtKQzUgIHznWCiLbymlam2cMU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "910657266458-0a4s8q001k69a8rolsbtqefpno45bcfq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

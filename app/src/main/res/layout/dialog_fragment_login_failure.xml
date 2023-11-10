@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <TextView
+        android:id="@+id/tvFailureTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginHorizontal="28dp"
+        android:gravity="center"
+        android:fontFamily="@font/product_sans_bold"
+        android:textSize="18sp"
+        android:textColor="@color/colorTextPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Akun Google Tidak Ditemukan"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/btPrimaryAction"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:paddingVertical="12dp"
+        android:paddingHorizontal="24dp"
+        android:gravity="center"
+        android:background="@drawable/bg_rounded_8dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:fontFamily="@font/product_sans_bold"
+        android:textColor="@color/colorTextInverted"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/tvFailureTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="Tambahkan Akun Google"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/btSecondaryAction"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="20dp"
+        android:paddingVertical="12dp"
+        android:paddingHorizontal="24dp"
+        android:gravity="center"
+        android:background="@drawable/bg_rounded_8dp"
+        android:fontFamily="@font/product_sans_bold"
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/btPrimaryAction"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:text="Masuk sebagai Anonnim"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

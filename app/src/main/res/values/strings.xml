@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">WhereToEat</string>
+
+    <!-- Secret -->
+    <string name="mapbox_access_token">pk.eyJ1IjoiYWJpemFyZXloYW4iLCJhIjoiY2w5YmFhODJmMWk3cTNybG1qOTM0Nnp3aSJ9.tlMLiKSviV12UOx1bChu7Q</string>
+
+    <!-- Base -->
+    <string name="skip_label">Lewati</string>
+    <string name="continue_label">Lanjut</string>
+    <string name="lets_go_label">Yuk Mulai</string>
+    <string name="finish_label">Selesai</string>
+    <string name="something_went_wrong_try_again">Yah, sepertinya ada yang salah. Coba lagi ya.</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title_first">Bingung cari tempat makan?</string>
+    <string name="onboarding_title_second">Eits, buka Where To Eat aja</string>
+    <string name="onboarding_title_third">Masih bingung?</string>
+    <string name="onboarding_subtitle_first">Pernah ngga sih kamu bingung mau makan dimana? Bosen ke tempat yang itu-itu aja? Mau ke tempat yang baru tapi takut kecewa?</string>
+    <string name="onboarding_subtitle_second">Di aplikasi Where To Eat, kamu bisa nemuin tempat baru yang sesuai sama preferensi kamu. Ngga perlu bingung lagi mau makan dimana.</string>
+    <string name="onboarding_subtitle_third">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+
+    <!-- Login Failure -->
+    <string name="one_tap_ui_not_supported">Perangkat Ini Tidak Support Login Dengan Google</string>
+    <string name="google_account_not_found">Akun Google Tidak Ditemukan</string>
+    <string name="google_login_failure">Yah, sepertinya ada yang salah</string>
+    <string name="add_google_account">Tambahkan Akun Google</string>
+    <string name="login_with_another_account">Masuk dengan akun lain</string>
+    <string name="continue_as_anonym">Masuk sebagai Anonim</string>
+
+    <!-- Personal Preference -->
+    <string name="personal_preferences_title">Sedikit lagi nih</string>
+    <string name="personal_preferences_subtitle">Kita butuh sedikit info lagi, sebelum bisa kasih kamu rekomendasi tempat yang cocok buatmu.</string>
+    <string name="personal_preferences_hint">Pilih yang sesuai dengan dirimu ya</string>
+    <string name="personal_preferences_button_disabled">%1$d dari %2$d dipilih</string>
+
+    <!-- Home -->
+    <string name="welcome_message">Halo %s</string>
+    <string name="location_at">di %s</string>
+    <string name="recommendation_around_you">Rekomendasi\nDi Sekitar Kamu</string>
+    <string name="for_you_icon">⭐</string>
+    <string name="for_you_label">Untuk Kamu</string>
+</resources>
